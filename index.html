@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookin-Online</title>
+    <!-- tailwind css  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawesomr  -->
+    <script src="https://kit.fontawesome.com/b8bae2bd97.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="h-screen relative">
+    <header class="bg-[#d84f57] h-16 w-full fixed top-0 left-0 right-0 z-50">
+        <div class="container mx-auto">
+            <nav class="flex justify-between items-center pt-2">
+
+                <!-- left container start -->
+
+                <div class="flex flex-row space-x-4">
+                    <img class="w-20 h-12 cursor-pointer" src="	https://www.redbus.in/i/59538b35953097248522a65b4b79650e.png" alt="" />
+                    <ul class="flex items-center space-x-4 text-white">
+                        <li class="transition-all duration-75 text-xl underline underline-offset-8 delay-75 hover:opacity-50"><a href="#">Bus Tickets</a></li>
+                        <li class="transition-all duration-75 delay-75 hover:opacity-50">
+                            <a href="#">rYde <sup class="font-semibold">New</sup></a>
+                        </li>
+                        <li class="transition-all duration-75 delay-75 hover:opacity-50">
+                            <a href="#">redRail <sup class="font-semibold">New</sup></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- left container right -->
+
+                <!-- right container start -->
+                <div>
+                    <ul class="flex items-center space-x-4 text-white">
+                        <li class="text-sm"><a href="#">Help</a></li>
+                        <li class="text-sm cursor-pointer"><a href="#">Manage Booking</a><i class="fas fa-sharp fa-regular fa-angle-up fa-rotate-180 px-1"></i></li>
+                        <li class="text-sm cursor-pointer">
+                            <i class="fas fa-light fa-user border border-1 border-white rounded-full p-2"></i> <i class="fas fa-sharp fa-regular fa-angle-up fa-rotate-180 px-1"></i>
+                        </li>
+                    </ul>
+                </div>
+                <!-- right container end -->
+            </nav>
+        </div>
+    </header>
+
+    <!-- hero section start  -->
+    <div class="h-screen">
+        <main class="bg-[url('https://st.redbus.in/Images/INDOFFER/FESTIVE200/Hero01.png')] w-full h-[450px] bg-cover bg-center top-0 relative">
+            <div class="absolute z-50 top-60 left-80 w-full">
+                <input class="h-12 px-4" type="text" name="from" placeholder="FROM">
+                <input class="h-12 px-4" type="text" name="to" placeholder="TO">
+                <input class="h-12 px-4" type="date" name="date" placeholder="DATE">
+                <button class="bg-[#d84f57] h-12 w-48 text-white hover:bg-[#e7676e] font-semibold">Search Buses</button>
+            </div>
+
+            <div class="absolute top-96 left-80">
+                <h1>FIRST</h1>
+                <div>
+                    <h3>SAVE UPTO RS 250* ON YOUR BUS TICKETS.</h3>
+                    <p>Book your favourite seat now.</p>
+                </div>
+            </div>
+
+        </main>
+    </div>
+    <!-- hero section end  -->
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+
+</html>
